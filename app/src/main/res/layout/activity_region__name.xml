@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="10dp"
+    tools:context=".Region_Name">
+
+<!--    <com.waynell.library.DropAnimationView-->
+<!--        android:id="@+id/drop_animation_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:minSize="30dp"-->
+<!--        app:maxSize="50dp"-->
+<!--        app:largePercent="80%"-->
+<!--        app:rate="100"-->
+<!--        app:xAnimate="true"-->
+<!--        app:yAnimate="true"-->
+<!--        app:rotationAnimate="true"/>-->
+
+
+    <EditText
+        android:id="@+id/regionName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter your region name"
+        android:background="@drawable/curve"
+        android:fontFamily="sans-serif-thin"
+        android:textColorHint="#FFFFFF"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/showWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regionName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/curve"
+        android:text="Button"
+        android:textSize="20sp"/>
+</RelativeLayout>

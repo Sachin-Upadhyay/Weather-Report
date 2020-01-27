@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient"
+    tools:context=".SplashScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weather Report"
+        android:gravity="center"
+        android:background="@drawable/bg_gradient"
+        android:textColor="#9561a1"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        ></TextView>
+
+<!--    <com.jetradarmobile.snowfall.SnowfallView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:snowflakeAlphaMax="255"-->
+<!--        app:snowflakeAlphaMin="150"-->
+<!--        app:snowflakeAngleMax="5"-->
+<!--        app:snowflakeImage="@drawable/snowflake"-->
+<!--        app:snowflakeSizeMax="32dp"-->
+<!--        app:snowflakeSizeMin="8dp"-->
+<!--        app:snowflakeSpeedMax="12"-->
+<!--        app:snowflakeSpeedMin="4"-->
+<!--        app:snowflakesAlreadyFalling="false"-->
+<!--        app:snowflakesFadingEnabled="true"-->
+<!--        app:snowflakesNum="250" />-->
+</RelativeLayout>
+
+
